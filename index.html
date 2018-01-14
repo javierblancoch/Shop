@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-flex.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+
+    <title>.::Bootstrap_web::.</title>
+  </head>
+  <body>
+
+
+    <header id="header-container">
+      <div class="container">
+        <div class="row flex-items-xs-middle flex-items-xs-between">
+          <div class="col-xs-6">
+            <h1 class="pull-xs-left">Shop</h1>
+          </div>
+          <div class="col-xs-3">
+            <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+              &#9776;
+            </button>
+            <a href="#" class="hidden-xs-down text-uppercase font-weight-bold pull-sm-right">Login</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <div id="menu-container">
+      <nav id="navMenu" class="navbar-toggleable-xs navbar navbar-light collapse">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-0 col-sm-6 offset-sm-4">
+              <ul class="nav navbar-nav">
+                <li class="nav-item text-xs-center active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a class="nav-link" href="catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a class="nav-link" href="carrito.html">Carrito</a>
+                </li>
+                <li class="nav-item hidden-sm-up text-xs-center">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-xs-12 offset-md-2 hidden-xs-down">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="¿Encontró lo que buscaba?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-platzi" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="search-bar" class="container hidden-sm-up">
+        <div class="row">
+            <div class="col-xs-12">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="¿Encontró lo que buscaba?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-platzi" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div id="carousel-container">
+      <div id="productsCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#productsCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#productsCarousel" data-slide-to="1"></li>
+          <li data-target="#productsCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="images/prod-1.jpg" alt="First slide">
+            <div class="carousel-caption">
+              <h3>iPhone 7 plus</h3>
+              <p class="hidden-sm-down">Con este producto egestas, nisi a efficitur porttitor, libero nisi viverra arcu, semper accumsan lectus est sit amet diam. Donec eget massa in arcu mattis laoreet id vel libero. Etiam tristique fermentum sem</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/prod-2.jpg" alt="Second slide">
+            <div class="carousel-caption">
+              <h3>Laptop msi</h3>
+              <p class="hidden-sm-down">Con este producto tempus id porta vel, blandit at ex. Mauris dignissim feugiat quam, vitae blandit metus auctor vitae. Maecenas ut varius ipsum, sed bibendum metus. In tristique a ante ac ornare</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/prod-3.jpg" alt="Third slide">
+            <div class="carousel-caption">
+              <h3>Pc alienware</h3>
+              <p class="hidden-sm-down">Con este producto ut convallis dui. Phasellus id mi aliquam, euismod dolor sit amet, maximus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#productsCarousel" role="button" data-slide="prev">
+          <span class="icon-prev" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#productsCarousel" role="button" data-slide="next">
+          <span class="icon-next" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    <div id="info-container">
+      <div class="container">
+        <div class="row flex-items-xs-middle">
+          <div class="col-md-4">
+            <img src="images/calidad.png" alt="Calidad" class="img-fluid">
+            <h4>Calidad</h4>
+          </div>
+          <div class="col-md-4">
+            <img src="images/envio.png" alt="Envío gratis" class="img-fluid">
+            <h4>Envío gratis</h4>
+          </div>
+          <div class="col-md-4">
+            <img src="images/soporte.png" alt="Soporte" class="img-fluid">
+            <h4>Soporte 24hs</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="footer-container">
+      <div class="container">
+        <div class="row text-xs-center text-sm-left">
+          <div class="col-md-4">
+            <form id="suscribeForm" action="#" method="POST">
+              <h4 class="text-uppercase">¿Quieres recibir todas las novedades?</h4>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="tu@correo.com" name="email">
+                <small id="emailHelp" class="form-text text-muted">No compartiremos tu información con nadie más</small>
+              </div>
+              <button type="submit" class="btn btn-primary form-text">Suscribirme</button>
+            </form>
+          </div>
+          <div class="col-md-3 offset-md-5 text-xs-center">
+            <h4 class="navigation">Navegación</h4>
+            <ul class="nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalogo.html">Catalogo</a></li>
+              <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

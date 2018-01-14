@@ -1,0 +1,158 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #ecf0f1;
+}
+
+a:hover {
+  color: #fff;
+}
+
+#header-container,
+#info-container {
+  background-color: #99c84a;
+  color: white;
+}
+
+#header-container .login,
+#header-container .navbar-toggler{
+  color: white;
+}
+
+#menu-container {
+  background-color: #f7f7f9;
+}
+
+.form-control:focus {
+  border-color: #99c84a;
+}
+
+.btn.btn-platzi {
+  background-color: #99c84a;
+  color: white;
+}
+
+.btn.btn-platzi:hover {
+  background-color: #8ab542;
+}
+
+#search-bar {
+  padding: 1em 0;  
+}
+
+#info-container h4 {
+  margin: 1em 0;
+  text-align: center;
+}
+
+#productsCarousel img {
+  margin: 0 auto;
+}
+
+#footer-container {
+  background-color: #1c3643;
+  color: white;
+  padding: 3em 0;
+}
+
+#footer-container h4 {
+  font-size: 16px;
+}
+
+#info-container img{
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+  #footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
+}
+
+#breadcrumbs-container .breadcrumb{
+  background-color: white;
+  padding-left: 0;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item{
+  color: #1c3643;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active{
+  color: #95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item + .breadcrumb-item::before{
+  content: ">"
+}
+
+#productos-container{
+  margin-bottom: 2em;
+}
+
+#filtros-container .list-group-item-action.active{
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#productos-container .list-group+.list-group{
+  margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+  #productos-container .filtros-toggle {
+    margin-bottom: 1em;
+  }
+}
+
+.listado-productos{
+  margin-top: 1em;
+}
+
+.listado-productos .card-img-top{
+  width: 100%;
+}
+
+#paginator-container .page-item:not(.active):not(.disabled) .page-link{
+  color: #99c84a;
+}
+
+#paginator-container .page-item.active .page-link, 
+.page-item.active .page-link:focus, 
+.page-item.active .page-link:hover {
+  background-color: #99c84a;
+  border-color: #99c84a;
+  color: white;  
+}
+
+#productos-container .table{
+  margin-bottom: 2em;
+}
+
+#productos-container .table .thead-dark{
+  background-color: #99c84a;
+  color: white;
+}
+
+#productos-container .table .info{
+  background-color: #e5e5e5;
+}
+
+#filtros-container2 .list-group-item-action.active{
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#filtros-container3 .list-group-item-action.active{
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#filtros-container4 .list-group-item-action.active{
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
